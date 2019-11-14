@@ -10,7 +10,6 @@ body {
     background-image: url('images/background2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    
 }
 
 header h1 {
@@ -48,7 +47,11 @@ header h1 {
 .button:active {
     background-color:#2440FF;
   }
-  
+.radios,
+label {
+    cursor: pointer;
+
+}  
 fieldset {
     border: none;
   }
